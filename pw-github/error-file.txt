@@ -1,7 +1,7 @@
 ../blink-playwright/scripts/playwright-wrapper.sh testServer e2eLite --test-mode=FULL --browser=chrome --branch-name=SCAL-11111-41 --baseUrl=https://172.32.118.7:8443 --blink-version=v2.1 --password=4Xyc1f%[H^3L --shard-prefix=shard-data-literacy-backlog.test.ts --spec-file=../blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts --spec-name=data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases --test-attempt=1 --max-attempts=3
 UNIQUE_ID: 33240-172.32.34.142
 NODE_OPTIONS: --max-old-space-size=4096
-Running in directory:/home/admin/thoughtspot/blink-playwright
+Running in directory:/home/admin/example/blink-playwright
 BASE_URL (env): https://172.32.118.7:8443
 BLINK_VERSION (env): v2.1
 TS_PASSWORD: 
@@ -48,9 +48,9 @@ Passed: 3	Failed: 7	Pending: 0
 
   1) cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:18:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142602 Verify A-Z button in DataPanel V2 
 
-    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-0/traces/10fe2ef93047cfce1778-59ed9a256f901c93e72d-recording1.trace'
+    Error: ENOENT: no such file or directory, open '/home/admin/example/blink-playwright/test-results/.playwright-artifacts-0/traces/10fe2ef93047cfce1778-59ed9a256f901c93e72d-recording1.trace'
 
-    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-0/548b31bb76761d4e6f051bfb48e91348.zip'
+    Error: ENOENT: no such file or directory, open '/home/admin/example/blink-playwright/test-results/.playwright-artifacts-0/548b31bb76761d4e6f051bfb48e91348.zip'
 
     [31mTest timeout of 480000ms exceeded.[39m
 
@@ -170,9 +170,9 @@ Passed: 3	Failed: 7	Pending: 0
       697 |       }
       698 |     }
 
-        at DataPanelPage.addSourcesInNewDataPanel (/home/admin/thoughtspot/blink-playwright/src/pages/DataPanel.page.ts:695:85)
-        at DataPanelPage.addDataSources (/home/admin/thoughtspot/blink-playwright/src/pages/DataPanel.page.ts:718:7)
-        at /home/admin/thoughtspot/blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:178:5
+        at DataPanelPage.addSourcesInNewDataPanel (/home/admin/example/blink-playwright/src/pages/DataPanel.page.ts:695:85)
+        at DataPanelPage.addDataSources (/home/admin/example/blink-playwright/src/pages/DataPanel.page.ts:718:7)
+        at /home/admin/example/blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:178:5
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
     test-results/cx-tests-search-data-data--b6b8b-All-Sources-Types-drop-down/test-failed-1.png
@@ -210,9 +210,9 @@ Passed: 3	Failed: 7	Pending: 0
       697 |       }
       698 |     }
 
-        at DataPanelPage.addSourcesInNewDataPanel (/home/admin/thoughtspot/blink-playwright/src/pages/DataPanel.page.ts:695:85)
-        at DataPanelPage.addDataSources (/home/admin/thoughtspot/blink-playwright/src/pages/DataPanel.page.ts:718:7)
-        at /home/admin/thoughtspot/blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:216:5
+        at DataPanelPage.addSourcesInNewDataPanel (/home/admin/example/blink-playwright/src/pages/DataPanel.page.ts:695:85)
+        at DataPanelPage.addDataSources (/home/admin/example/blink-playwright/src/pages/DataPanel.page.ts:718:7)
+        at /home/admin/example/blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:216:5
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
     test-results/cx-tests-search-data-data--57149-houldn’t-miss-getting-added/test-failed-1.png
