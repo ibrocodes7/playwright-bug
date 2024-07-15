@@ -56,17 +56,17 @@ Passed: 3	Failed: 7	Pending: 0
 
   2) cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:33:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142603 Navigate to search page and wait for panel to load & Check popular columns 
 
-    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-1/traces/10fe2ef93047cfce1778-bdc0ee607ab9f6d3f446-recording1.network'
+    Error: ENOENT: no such file or directory, open '/home/admin/example/blink-playwright/test-results/.playwright-artifacts-1/traces/10fe2ef93047cfce1778-bdc0ee607ab9f6d3f446-recording1.network'
 
-    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-1/e90b63dd72335aae1607a389840368ea.zip'
+    Error: ENOENT: no such file or directory, open '/home/admin/example/blink-playwright/test-results/.playwright-artifacts-1/e90b63dd72335aae1607a389840368ea.zip'
 
     [31mTest timeout of 480000ms exceeded.[39m
 
   3) cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:48:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142604 Verify adding / removing a Column/Formula to/from sage search box 
 
-    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-2/traces/10fe2ef93047cfce1778-b0ca6c84defaa1a7c111-recording1.trace'
+    Error: ENOENT: no such file or directory, open '/home/admin/example/blink-playwright/test-results/.playwright-artifacts-2/traces/10fe2ef93047cfce1778-b0ca6c84defaa1a7c111-recording1.trace'
 
-    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-2/d7077e0acb33f6de819a026ed93b8e68.zip'
+    Error: ENOENT: no such file or directory, open '/home/admin/example/blink-playwright/test-results/.playwright-artifacts-2/d7077e0acb33f6de819a026ed93b8e68.zip'
 
     [31mTest timeout of 480000ms exceeded.[39m
 
@@ -90,9 +90,9 @@ Passed: 3	Failed: 7	Pending: 0
       697 |       }
       698 |     }
 
-        at DataPanelPage.addSourcesInNewDataPanel (/home/admin/thoughtspot/blink-playwright/src/pages/DataPanel.page.ts:695:85)
-        at DataPanelPage.addDataSources (/home/admin/thoughtspot/blink-playwright/src/pages/DataPanel.page.ts:718:7)
-        at /home/admin/thoughtspot/blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:108:5
+        at DataPanelPage.addSourcesInNewDataPanel (/home/admin/example/blink-playwright/src/pages/DataPanel.page.ts:695:85)
+        at DataPanelPage.addDataSources (/home/admin/example/blink-playwright/src/pages/DataPanel.page.ts:718:7)
+        at /home/admin/example/blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:108:5
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
     test-results/cx-tests-search-data-data--a2462-cking-elsewhere-on-the-page/test-failed-1.png
@@ -130,9 +130,9 @@ Passed: 3	Failed: 7	Pending: 0
       697 |       }
       698 |     }
 
-        at DataPanelPage.addSourcesInNewDataPanel (/home/admin/thoughtspot/blink-playwright/src/pages/DataPanel.page.ts:695:85)
-        at DataPanelPage.addDataSources (/home/admin/thoughtspot/blink-playwright/src/pages/DataPanel.page.ts:718:7)
-        at /home/admin/thoughtspot/blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:125:5
+        at DataPanelPage.addSourcesInNewDataPanel (/home/admin/example/blink-playwright/src/pages/DataPanel.page.ts:695:85)
+        at DataPanelPage.addDataSources (/home/admin/example/blink-playwright/src/pages/DataPanel.page.ts:718:7)
+        at /home/admin/example/blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:125:5
 
     attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
     test-results/cx-tests-search-data-data--49cd8-r-column-verify-the-buttons/test-failed-1.png
