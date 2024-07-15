@@ -1,10 +1,10 @@
-../blink-playwright/scripts/playwright-wrapper.sh testServer e2eLite --test-mode=FULL --browser=chrome --branch-name=SCAL-11111-41 --baseUrl=https://172.32.118.7:8443 --blink-version=v2.1 --password=4Xyc1f%[H^3L --shard-prefix=shard-data-literacy-backlog.test.ts --spec-file=../blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts --spec-name=data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases --test-attempt=1 --max-attempts=3
+../blink-playwright/scripts/playwright-wrapper.sh testServer e2eLite --test-mode=FULL --browser=chrome --branch-name=SCAL-11111-41 --baseUrl=https://172.32.118.7:8443 --blink-version=v2.1 --password=example12345@ --shard-prefix=shard-data-literacy-backlog.test.ts --spec-file=../blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts --spec-name=data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases --test-attempt=1 --max-attempts=3
 UNIQUE_ID: 33240-172.32.34.142
 NODE_OPTIONS: --max-old-space-size=4096
 Running in directory:/home/admin/example/blink-playwright
 BASE_URL (env): https://172.32.118.7:8443
 BLINK_VERSION (env): v2.1
-TS_PASSWORD: 
+TS_PASSWORD: example12345@
 \n\nIgnoring parameters:  ../blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts testServer e2eLite --test-mode=FULL --browser=chrome --branch-name=SCAL-11111-41 --shard-prefix=shard-data-literacy-backlog.test.ts --test-attempt=1 --max-attempts=3
 \nPlaywright Version: npx playwright --version
 Version 1.45.0
