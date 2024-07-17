@@ -1,0 +1,159 @@
+../blink-playwright/scripts/playwright-wrapper.sh testServer e2eLite --test-mode=FULL --browser=chrome --branch-name=SCAL-11111-41 --baseUrl=https://172.32.80.210:8443 --blink-version=v2.1 --password=4Xyc1f%[H^3L --shard-prefix=shard-data-literacy-backlog.test.ts --spec-file=../blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts --spec-name=data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases --test-attempt=1 --max-attempts=3
+UNIQUE_ID: 60352-172.32.1.160
+NODE_OPTIONS: --max-old-space-size=4096
+System:
+  OS:
+Linux nebula-w-upgrade-full-mode-4-browsers-by-jenkins-69dd788dcn9rpn 5.15.0-200.131.27.el8uek.x86_64 #2 SMP Wed Oct 4 22:19:10 PDT 2023 x86_64 x86_64 x86_64 GNU/Linux
+  CPU:
+Model name:                         Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz
+  Memory:
+Mem:           6.0Gi       426Mi       5.2Gi        29Gi       393Mi       5.2Gi
+System:
+  CPU: (56) Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz
+  Memory: 426Mi / 6.0Gi
+Binaries:
+  Node:
+v18.20.2
+  npm:
+9.5.1
+  pnpm:
+/usr/local/scaligent/toolchain/local/bin/pnpm
+Languages:
+  Bash:
+GNU bash, version 5.1.16(1)-release (x86_64-pc-linux-gnu)
+Copyright (C) 2020 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+
+This is free software; you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+npmPackages:
+/usr/local/scaligent/toolchain/local/lib
++-- grunt-cli@1.3.2
++-- npm@9.5.1
++-- typescript@2.2.1
+`-- yarn@1.22.4
+
+envinfo:
+Running in directory:/home/admin/thoughtspot/blink-playwright
+BASE_URL (env): https://172.32.80.210:8443
+BLINK_VERSION (env): v2.1
+TS_PASSWORD: 4Xyc1f%[H^3L
+\n\nIgnoring parameters:  ../blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts testServer e2eLite --test-mode=FULL --browser=chrome --branch-name=SCAL-11111-41 --shard-prefix=shard-data-literacy-backlog.test.ts --test-attempt=1 --max-attempts=3
+\nPlaywright Version: npx playwright --version
+Version 1.45.1
+\Node Version: node --version
+v18.20.2
+\OS Version: uname -a
+Linux nebula-w-upgrade-full-mode-4-browsers-by-jenkins-69dd788dcn9rpn 5.15.0-200.131.27.el8uek.x86_64 #2 SMP Wed Oct 4 22:19:10 PDT 2023 x86_64 x86_64 x86_64 GNU/Linux
+Escaped grep pattern: data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases
+\nRunning test cmd: npx playwright test "../blink-playwright/tests/cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts" --grep "data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases|data literacy v2 backlog cases"
+[32mConnection 'UNIQUE-60352-172.32.1.160_CONNECTION' for type:Snowflake exists.[0m
+[32mWorksheet 'UNIQUE-60352-172.32.1.160-UI-WS' is already present.[0m
+[32mWorksheet 'UNIQUE-60352-172.32.1.160-WS-PW' is already present.[0m
+
+Running 10 tests using 1 worker
+
+autoWorkerFixture setup...
+  ✘  1 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:18:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142602 Verify A-Z button in DataPanel V2 (27.1s)
+Passed: 0	Failed: 1	Pending: 9
+autoWorkerFixture setup...
+  ✘  2 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:33:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142603 Navigate to search page and wait for panel to load & Check popular columns (25.2s)
+Passed: 0	Failed: 2	Pending: 8
+autoWorkerFixture setup...
+  ✘  3 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:48:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142604 Verify adding / removing a Column/Formula to/from sage search box (43.2s)
+Passed: 0	Failed: 3	Pending: 7
+autoWorkerFixture setup...
+  ✓  4 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:95:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C138361 Data panel v2: formula section should always be visible (24.5s)
+  ✓  5 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:103:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C138415 Data panel v2: do not clear selected columns when clicking elsewhere on the page (26.8s)
+  ✘  6 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:119:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C147384 Check after clicking on a column  overview button it open the overview panel then clicking on another column & verify the buttons (24.4s)
+Passed: 2	Failed: 4	Pending: 4
+autoWorkerFixture setup...
+  ✓  7 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:147:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C148866 should show checkboxes for multiple sources selection (22.3s)
+  ✓  8 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:170:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C148873 Verify the data sources listed in Select data source modal after selecting "Views" from All Sources Types drop down (40.2s)
+  ✘  9 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:201:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C152248 Verify Add formula buttons doesnâ€™t appear in the search results (15.3s)
+Passed: 4	Failed: 5	Pending: 1
+autoWorkerFixture setup...
+  ✓  10 cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:212:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C175853 Data panel v2: adding multiple columns via checkboxes shouldn’t lead to race condition where some shouldn’t miss getting added (33.0s)
+
+
+  1) cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:18:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142602 Verify A-Z button in DataPanel V2 
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-0/traces/10fe2ef93047cfce1778-59ed9a256f901c93e72d-recording1.trace'
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-0/7eba40a5f3bc2885db32990eb56e5fca.zip'
+
+    [31mTest timeout of 480000ms exceeded.[39m
+
+  2) cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:33:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142603 Navigate to search page and wait for panel to load & Check popular columns 
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-1/traces/10fe2ef93047cfce1778-bdc0ee607ab9f6d3f446-recording1.trace'
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-1/8ef2af9c94bf764b3889d28f381fc88f.zip'
+
+    [31mTest timeout of 480000ms exceeded.[39m
+
+  3) cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:48:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142604 Verify adding / removing a Column/Formula to/from sage search box 
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-2/traces/10fe2ef93047cfce1778-b0ca6c84defaa1a7c111-recording1.trace'
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-2/17ee55c6eec25d90c56330ce30246a9e.zip'
+
+  4) cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:119:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C147384 Check after clicking on a column  overview button it open the overview panel then clicking on another column & verify the buttons 
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-3/traces/10fe2ef93047cfce1778-cb572870eaf3184e53e9-recording3.trace'
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-3/46a39db0aee76303b06c2c910c639024.zip'
+
+    [31mTest timeout of 480000ms exceeded.[39m
+
+  5) cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:201:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C152248 Verify Add formula buttons doesnâ€™t appear in the search results 
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-4/traces/10fe2ef93047cfce1778-fa967db4dc9835c3d241-recording3.trace'
+
+    Error: ENOENT: no such file or directory, open '/home/admin/thoughtspot/blink-playwright/test-results/.playwright-artifacts-4/3445b55d88713f96d2152ae82207d2f7.zip'
+
+    [31mTest timeout of 480000ms exceeded.[39m
+
+  5 failed
+    cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:18:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142602 Verify A-Z button in DataPanel V2 
+    cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:33:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142603 Navigate to search page and wait for panel to load & Check popular columns 
+    cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:48:7 › data literacy v2 backlog cases › @P1 @junWK2-ps @C142604 Verify adding / removing a Column/Formula to/from sage search box 
+    cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:119:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C147384 Check after clicking on a column  overview button it open the overview panel then clicking on another column & verify the buttons 
+    cx-tests/search-data/data-literacy/data-literacy-backlog.test.ts:201:7 › data literacy v2 backlog cases › @P1 @junWK3-ps @C152248 Verify Add formula buttons doesnâ€™t appear in the search results 
+  5 passed (37.7m)
+SummaryReporter: Tests execution completed.
+SummaryReporter: in createResultsSummaryFile
+SummaryReporter: contents are: 
+Base URL:  https://172.32.80.210:8443
+Pass %: 50.00
+Start Time: Tue Jul 16 2024 10:07:45 GMT-0700 (Pacific Daylight Time)
+Cluster Version: test
+TotalTests: 10
+Test Execution Time: 37 mins, 44 secs
+Passed: 5
+Failed: 5
+Workers: 1
+MaxRetries: 0
+BuildStatus: Unstable
+test-results-summary.txt File created!
+worker-execution-summary.txt file created!
+
+Contents of the test-results directory after test execution:
+test-results
+test-results/cx-tests-search-data-searc-33108-a-in-brackets-and-extend-it
+test-results/cx-tests-search-data-searc-33108-a-in-brackets-and-extend-it/test-failed-1.png
+test-results/cx-tests-search-data-searc-4a60b-iling-Something-Wrong-error
+test-results/cx-tests-search-data-data--6e029--for-formula-and-parameters
+test-results/cx-tests-search-data-data--6e029--for-formula-and-parameters/test-failed-1.png
+test-results/.last-run.json
+test-results/global-setup-video
+test-results/global-setup-video/1721151896327
+test-results/global-setup-video/1721151896327/2041906e2483e17753af3eea27d11cab.webm
+test-results/global-setup-video/1721151875128
+test-results/global-setup-video/1721151875128/4a2ca753cc0f926eeb8036fed6bff029.webm
+test-results/global-setup-video/1721151756452
+test-results/global-setup-video/1721151756452/cf5861108d1a862587fb37df32e8767b.webm
+test-results/global-setup-video/1721151848270
+test-results/global-setup-video/1721151848270/978bf6f08b4dfe260199646f0b3078e5.webm
+test-results/global-setup-video/1721151738274
+test-results/global-setup-video/1721151738274/5ee798dca9543bc7db559debafe28791.webm
